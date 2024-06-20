@@ -1,0 +1,43 @@
+.pais-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .pais-lista {
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f5ff; /* Azul claro */
+  }
+  
+  .pais-lista h2 {
+    color: #003366; /* Azul escuro */
+  }
+  
+  .pais-lista ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pais-lista ul li {
+    margin-bottom: 10px;
+  }
+  
+  .pais-lista ul li img {
+    margin-right: 5px;
+  }
+  
+  .pais-lista button {
+    background-color: #005cbf; /* Azul médio */
+    color: #ffffff; /* Branco */
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pais-lista button:hover {
+    background-color: #003366; /* Azul escuro */
+  }
+  
